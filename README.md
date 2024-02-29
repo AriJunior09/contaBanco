@@ -1,11 +1,12 @@
 # Sistema de Conta Bancária em Java
 
-Com o objetivo de aprendizagem, este projeto é um sistema de conta bancária que exemplifica conceitos fundamentais de programação orientada a objetos, tais como herança, polimorfismo e encapsulamento.
+Este projeto é um sistema de conta bancária em Java, com o objetivo de exemplificar conceitos fundamentais de programação orientada a objetos, tais como herança, polimorfismo e encapsulamento. Além disso, o sistema foi aprimorado com funcionalidades adicionais, incluindo histórico de operações e data e hora das transações.
 
-## Principais Funções
+## Funcionalidades Principais
 
 - Criação de contas para pessoas físicas e jurídicas.
 - Realização de depósitos e saques em contas.
+- Visualização do histórico de operações, incluindo data e hora das transações.
 - Impressão dos dados da conta, incluindo número da conta, nome do titular e saldo.
 
 ## Como Usar
@@ -27,24 +28,15 @@ contaPessoaFisica.deposito(1000.00);
 // Realizar um saque na conta
 contaPessoaFisica.saque(200.00);
 
-// Imprimir os dados atualizados da conta
-System.out.println(contaPessoaFisica);
+// Visualizar o histórico de operações e saldo atual da conta
+visualizarHistorico(contaPessoaFisica.getHistorico(), contaPessoaFisica.getSaldo());
 ```
 
-
-
-
-
- ## Requisitos
-
+## Requisitos
 - JDK (Java Development Kit) instalado em sua máquina.
 
 ## Contribuindo
-
 - Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests para melhorar este projeto.
 
 ## Autor
-- Este projeto foi desenvolvido por [Ari Júnior].
-
-
-
+- Este projeto foi desenvolvido por [Ari Junior].
