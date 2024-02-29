@@ -2,7 +2,7 @@
 
 Com o objetivo de aprendizagem, este projeto é um sistema de conta bancária que exemplifica conceitos fundamentais de programação orientada a objetos, tais como herança, polimorfismo e encapsulamento.
 
-## Funcionalidades Principais
+## Principais Funções
 
 - Criação de contas para pessoas físicas e jurídicas.
 - Realização de depósitos e saques em contas.
